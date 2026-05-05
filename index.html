@@ -1,157 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dravix Is Live - Official Site</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Icon Library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <!-- Gaming Typography -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Dravix Plays</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <div class="site-container">
-        <!-- Navigation -->
-        <header>
-            <div class="logo">
-                <i class="fa-solid fa-gamepad"></i> DRAVIX PLAYS
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#home" class="active">HOME</a></li>
-                    <li><a href="#live">LIVE NOW</a></li>
-                    <li><a href="#videos">VIDEOS</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
-            </nav>
-        </header>
+<!-- NAVBAR -->
+<header>
+  <h1>🎮 Dravix Plays</h1>
+  <nav>
+    <a href="#videos">YouTube</a>
+    <a href="#insta">Instagram</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-        <main>
-            <!-- Hero Section -->
-            <section class="hero" id="home">
-                <div class="hero-left">
-                    <h1>THE ADVENTURE BEGINS.<br>JOIN THE COMMUNITY!</h1>
-                    <p>EXPLORE NEW CONTENT AND CONNECT.</p>
-                </div>
-                <div class="hero-right">
-                    <!-- Instagram Button -->
-                    <a href="https://instagram.com/dravix_plays" target="_blank" class="social-btn insta-btn">
-                        <i class="fab fa-instagram social-icon"></i>
-                        <div class="btn-text">
-                            <span class="handle">@dravix_plays</span>
-                            <span class="subtext">Direct Access</span>
-                        </div>
-                    </a>
-                    <!-- YouTube Button -->
-                    <a href="https://www.youtube.com/@dravixisliveyt" target="_blank" class="social-btn yt-btn">
-                        <i class="fab fa-youtube social-icon"></i>
-                        <div class="btn-text">
-                            <span class="handle">Dravix Is Live</span>
-                            <span class="subtext">Direct Access</span>
-                        </div>
-                    </a>
-                </div>
-            </section>
+<!-- HERO -->
+<section class="hero">
+  <h2>GAME ON. LEVEL UP.</h2>
+  <p>Epic gameplay, insane moments & live streams 🔥</p>
+  <div class="buttons">
+    <a href="https://www.youtube.com/@dravixisliveyt" target="_blank" class="btn yt">YouTube</a>
+    <a href="https://instagram.com/dravix_plays" target="_blank" class="btn insta">Instagram</a>
+  </div>
+</section>
 
-            <!-- Media Grid Section -->
-            <section class="grid-section">
-                <!-- Live/Feature Section -->
-                <div class="grid-item video-highlight" id="live">
-                    <div class="section-header">
-                        <h2>NEW VIDEO OR LIVE</h2>
-                        <span class="live-status fa-fade">
-                            <i class="fa-solid fa-tower-broadcast"></i> LIVE NOW
-                        </span>
-                    </div>
-                    <div class="main-video-container">
-                        <img src="https://i.imgur.com/8QY9zY2.jpg" alt="CLOVE MAIN LIVE" class="video-thumbnail">
-                        <a href="https://www.youtube.com/live/Ah-SDvZxJlY?si=_rhttAMm6heabShu" target="_blank" class="main-open-btn">
-                            <i class="fa-solid fa-play"></i> OPEN
-                        </a>
-                        <div class="video-stats">
-                            <span class="stream-title">LET'S GO BACK TO ASCENDANT AGAIN!</span>
-                            <span class="live-metrics">
-                                <span><i class="fa-solid fa-eye"></i> 12k Viewers</span>
-                                <span><i class="fa-solid fa-clock"></i> LIVE</span>
-                            </span>
-                        </div>
-                    </div>
-                </div>
+<!-- YOUTUBE VIDEOS -->
+<section id="videos">
+  <h2>🔥 Latest YouTube Videos</h2>
+  <div id="youtube-container" class="grid"></div>
+</section>
 
-                <!-- Video Previews -->
-                <div class="grid-item video-previews" id="videos">
-                    <div class="section-header">
-                        <h2>YOUTUBE VIDEOS PREVIEW</h2>
-                    </div>
-                    <div class="preview-grid">
-                        <div class="preview-card">
-                            <img src="https://i.imgur.com/f9O2GjG.jpg" alt="BGMI" class="card-thumb">
-                            <div class="card-info">
-                                <h4>LETS GO TO ASCENDANT AGAIN</h4>
-                                <div class="card-meta"></div>
-                            </div>
-                            <a href="https://www.youtube.com/live/ueR3UjmomeU?si=kkXpVLBbGAR_ZbD4" target="_blank" class="card-open-btn">OPEN</a>
-                        </div>
-                        <div class="preview-card">
-                            <img src="https://i.imgur.com/rN9kC6Y.jpg" alt="Valorant" class="card-thumb">
-                            <div class="card-info">
-                                <h4>NEW CLOVE STRATEGIES - VALORANT</h4>
-                                <div class="card-meta">30k Views</div>
-                            </div>
-                            <a href="https://www.youtube.com/@dravixisliveyt" target="_blank" class="card-open-btn">OPEN</a>
-                        </div>
-                        <div class="preview-card">
-                            <img src="https://i.imgur.com/y3n4L4B.jpg" alt="Setup" class="card-thumb">
-                            <div class="card-info">
-                                <h4>MY GAMING SETUP 2026</h4>
-                                <div class="card-meta">55k Views</div>
-                            </div>
-                            <a href="https://www.youtube.com/@dravixisliveyt" target="_blank" class="card-open-btn">OPEN</a>
-                        </div>
-                        <div class="preview-card">
-                            <img src="https://i.imgur.com/y3n4L4B.jpg" alt="Clutches" class="card-thumb">
-                            <div class="card-info">
-                                <h4>TOP 10 INSANE CLUTCHES</h4>
-                                <div class="card-meta">100k Views</div>
-                            </div>
-                            <a href="https://www.youtube.com/@dravixisliveyt" target="_blank" class="card-open-btn">OPEN</a>
-                        </div>
-                    </div>
-                </div>
+<!-- INSTAGRAM -->
+<section id="insta">
+  <h2>📸 Instagram Reels</h2>
+  <div class="grid">
+    
+    <!-- MANUAL EMBEDS (Instagram restricts auto API) -->
+    <iframe src="https://www.instagram.com/dravix_plays/embed" class="insta-frame"></iframe>
 
-                <!-- Schedule & Contact -->
-                <div class="grid-item stream-schedule">
-                    <div class="section-header">
-                        <h2>STREAM SCHEDULE</h2>
-                    </div>
-                    <p>Mon-Sat 8PM - 1AM IST</p>
-                    <p>Sunday 3PM - 8PM IST</p>
-                </div>
+  </div>
+</section>
 
-                <div class="grid-item contact-form" id="contact">
-                    <div class="section-header">
-                        <h2>CONTACT ME</h2>
-                   <a href="https://instagram.com/dravix_plays" target="_blank" class="social-btn insta-btn">
-                        <i class="fab fa-instagram social-icon"></i>
-                        <div class="btn-text">
-                            <span class="handle">@dravix_plays</span>
-                            <span class="subtext">Direct Access</span>
-                    </form>
-                </div>
- 
-        <footer>
-            <div class="footer-left">DRAVIX PLAYS</div>
-            <div class="footer-right">
-                <div class="footer-socials">
-                    <a href="https://instagram.com/dravix_plays" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.youtube.com/@dravixisliveyt" target="_blank"><i class="fab fa-youtube"></i></a>
-                </div>
-                <div class="copyright">Copyright &copy; 2026 Dravix Plays.</div>
-            </div>
-        </footer>
-    </div>
+<!-- CONTACT -->
+<section id="contact">
+  <h2>📩 Let's Connect</h2>
+  <div class="contact-box">
+    <a href="https://instagram.com/dravix_plays" target="_blank">Instagram: @dravix_plays</a>
+    <a href="mailto:dravixplaysyt@gmail.com">Email: dravixplaysyt@gmail.com</a>
+  </div>
+</section>
 
+<footer>
+  <p>© 2026 Dravix Plays</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
