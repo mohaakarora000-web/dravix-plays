@@ -1,5 +1,5 @@
-const apiKey = "YOUR_YOUTUBE_API_KEY"; 
-const channelId = "UC"; // UCijyeLaer-XqE2IwN8ZUPsw
+const apiKey = "AIzaSyBJdA5qfXzaQ7vEMh7j1yTSetp7jShILnU"; 
+const channelId = "UC";// UCijyeLaer-XqE2IwN8ZUPsw
 
 async function loadVideos() {
   const url = `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=6`;
